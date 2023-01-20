@@ -1,4 +1,4 @@
-
+#!/bin/python3
 
 age = input("What is your current age? ")
 
