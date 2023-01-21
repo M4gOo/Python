@@ -23,3 +23,13 @@ elif condition2:
   do B
 else:
   do this
+
+
+============== Multiple if  ==================
+# all conditionals it will be executed
+if condition1: 
+  do A
+if condition2:
+  do B
+if condition3:
+  do C
