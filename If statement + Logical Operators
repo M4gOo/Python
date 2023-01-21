@@ -62,4 +62,17 @@ if extra_cheese == "Y":
 
 print(f"Your final bill is: ${bill}.") 
   
+    
+============== LOGICAL OPERATORS  ==================  
   
+A AND B (A B must be both true for the line be true otherwise it will be false)
+C OR D  (C D one is true for the line be true, to be false both must to be false)
+NOT E   (reverse the condition if is true it will be false and vice versa)
+
+  
+============== Combine Conditions  ==================
+
+if condition1 & condition2 & condition3
+  do this
+else:
+  do this
