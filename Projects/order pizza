@@ -49,5 +49,5 @@ elif size == "L":
         else:
             print(f"Your final bill is: $25.")            
 else:
-    print("The size letter are wrong, please, try again.")
+    print("The size letter is wrong, please, try again.")
 
