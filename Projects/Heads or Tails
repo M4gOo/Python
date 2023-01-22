@@ -1,0 +1,6 @@
+
+import random
+
+choice_HorT = ['Heads', 'Tails']
+
+print(random.choice(choice_HorT))
