@@ -1,6 +1,19 @@
+#!/bin/python3
 
 import random
 
 choice_HorT = ['Heads', 'Tails']
 
 print(random.choice(choice_HorT))
+
+
+##### version 2
+
+import random
+
+random_side = random.radiant(0,1)
+if random_side == 1:
+  print ("Heads")
+else:
+  print("Tails")
+
