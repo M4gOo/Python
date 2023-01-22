@@ -28,3 +28,10 @@ cars.append("yamaha")
 print(cars)
 A:
 ["bmw", "toyota", "honda", "hyundai", "yamaha"]
+
+
+###### nested list ################
+X = [A, B, C]
+Y = [D, E, F]
+Z = [x, Y]
+
