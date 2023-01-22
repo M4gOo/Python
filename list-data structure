@@ -1,0 +1,30 @@
+
+Documentation
+https://docs.python.org/3/tutorial/datastructures.html
+
+list
+
+cars = ["bmw", "toyota", "honda", "hyundai"]
+print(cars[1])
+A:
+toyota
+
+cars = ["bmw", "toyota", "honda", "hyundai"]
+print(cars[-1])
+A:
+hyundai
+
+###### change item in the list #################
+cars = ["bmw", "toyota", "honda", "hyundai"]
+cars[2] = "yamaha"
+print(cars)
+A:
+["bmw", "toyota", "yamaha", "hyundai"]
+
+
+###### add item in the list #################
+cars = ["bmw", "toyota", "honda", "hyundai"]
+cars.append("yamaha")
+print(cars)
+A:
+["bmw", "toyota", "honda", "hyundai", "yamaha"]
