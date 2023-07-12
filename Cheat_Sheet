@@ -1,5 +1,4 @@
 
-############  String Manipulation
 
 -Print                                                               print("Hello World")
 Prints a string into the console. 
@@ -10,6 +9,7 @@ and asks the user for a string input.
 
 -Print in another line                                                print("Hello\nHello")
 using same command print
+must be inside the quotes
 
 -Print space                                                          print("Hello World")
 add a space in the " " 
@@ -23,5 +23,15 @@ It should be surrounded by double quotes.
 You can add strings to string to create                                #becomes HelloHi
 a new string. This is called concatenation.
 It results in a new string.
+
+-Print the lenght of string                                          variable = input("What is your name?\n")
+                                                                     print(len(variable))
+
+- Variables
+A variable give a name to a piece of data.                            name = "Bob" 
+Like a box with a label, it tells you what's                          age = 345
+inside the box. You can refer everytime in your
+code.
+
 
 
