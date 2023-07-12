@@ -1,0 +1,27 @@
+
+############  String Manipulation
+
+-Print                                                               print("Hello World")
+Prints a string into the console. 
+
+-Input                                                               input("What's your name")
+Prints a string into the console,
+and asks the user for a string input.
+
+-Print in another line                                                print("Hello\nHello")
+using same command print
+
+-Print space                                                          print("Hello World")
+add a space in the " " 
+if dont want any space                                                 print("HelloWorld")
+
+-Strings                                                              my_string = "Hello"
+A string is just a string of characters.
+It should be surrounded by double quotes.
+
+-String Concatenation                                                  "Hello" + "Hi"                 
+You can add strings to string to create                                #becomes HelloHi
+a new string. This is called concatenation.
+It results in a new string.
+
+
