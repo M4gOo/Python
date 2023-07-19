@@ -28,6 +28,9 @@ Decimals                                                               3.14159
 - Boolean
 True of False
 
+- When divide a number we will have a                                 print(9 // 5)
+floating point number                                                      4
+
 -type()                          check whatever you put between the parentheses and give you the type of data that it is 
                                                     print(type(variable))
 
@@ -59,4 +62,27 @@ the square brackets, we can put the index or                            print("B
 the position of the character that we want                              l
 this method of pulling out a particular element 
 from a string is called sub-scripting
+
+
+-When writing code it is common to manipulate                             value = 0 
+a value based on its previous value
+This is a convient way of saying: "take the
+previous value and add to it.                                             value += 1   #could be value = value + 1
+could be  value -=1, value *=1, value /=1
+
+
+- F-Strings
+You can insert a variable into a string using f-strings                          days = 365
+The syntax is simple, just insert the variable                                print(f"There are {days} in a year")
+in-between a set of curly braces {}.
+days = 365
+print(f"There are {days}
+in a year"
+
+
+
+
+
+
+
 
