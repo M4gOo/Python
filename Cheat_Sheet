@@ -7,7 +7,7 @@ Prints a string into the console.
 Prints a string into the console,
 and asks the user for a string input.
 
--Print in another line                                                print("Hello\nHello")
+-Print in another line         \n                                     print("Hello\nHello")
 using same command print
 must be inside the quotes
 
