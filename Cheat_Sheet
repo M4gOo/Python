@@ -19,6 +19,18 @@ if dont want any space                                                 print("He
 A string is just a string of characters.
 It should be surrounded by double quotes.
 
+- Integer
+large numbers put _ in between the thousands.                        569_945_301
+
+- Float
+Decimals                                                               3.14159     
+
+- Boolean
+True of False
+
+-type()                          check whatever you put between the parentheses and give you the type of data that it is 
+                                                    print(type(variable))
+
 -String Concatenation                                                  "Hello" + "Hi"                 
 You can add strings to string to create                                #becomes HelloHi
 a new string. This is called concatenation.
@@ -26,6 +38,13 @@ It results in a new string.
 
 -Print the lenght of string                                          variable = input("What is your name?\n")
                                                                      print(len(variable))
+                                                                        int, str, etc
+
+do type conversion or casting 
+change a piece of data from one particular data type to another.          variable_int = len(input("type any number"))
+                                                                          change_variable_to_float = float(variable_int)
+                                                                          print("The number has " + change_variable_to_float + " characters")     
+
 
 - Variables
 A variable give a name to a piece of data.                            name = "Bob" 
@@ -34,4 +53,10 @@ inside the box. You can refer everytime in your
 code.
 
 
+- Index
+[]
+the square brackets, we can put the index or                            print("Bloob"[1])
+the position of the character that we want                              l
+this method of pulling out a particular element 
+from a string is called sub-scripting
 
