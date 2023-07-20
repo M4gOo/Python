@@ -79,10 +79,26 @@ days = 365
 print(f"There are {days}
 in a year"
 
+- IF/ELSE/ELIF                                                                 if conditiona 1:
+ conditional statement                                                               do A
+It is good to use a flow chart to get better idea                              elif condition 2:
+                                                                                      do B
+                                                                              else:
+                                                                                      do this 
+>=   Greater than or equal to                                                  
+<=   Less than or equal to 
+==   Equal precisely, Equality, checking to see if the value on the left is equal to the value on the right
+=    Assign value
+!=   Not Equal
+
+- Modulo Operator 
+you'll want to know what is the remainder after a division.
+e.g. 4 ÷ 2 = 2 with no remainder but 5 ÷ 2 = 2 with 1 remainder. The modulo does not give you the result of the division, just the remainder.
 
 
-
-
+- IF/ELSE - NESTED
+in a nested if statement, once the first condition has passed,we can check for another condition. And then we can have another 
+if/else statement inside this if condition
 
 
 
