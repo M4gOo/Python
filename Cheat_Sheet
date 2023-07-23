@@ -31,8 +31,8 @@ True of False
 - When divide a number we will have a                                 print(9 // 5)
 floating point number                                                      4
 
--type()                          check whatever you put between the parentheses and give you the type of data that it is 
-                                                    print(type(variable))
+-type()                                        check whatever you put between the parentheses and give you the type of data that it is 
+   good for troubleshooting                                                 print(type(variable))
 
 -String Concatenation                                                  "Hello" + "Hi"                 
 You can add strings to string to create                                #becomes HelloHi
@@ -79,26 +79,46 @@ days = 365
 print(f"There are {days}
 in a year"
 
-- IF/ELSE/ELIF                                                                 if conditiona 1:
- conditional statement                                                               do A
-It is good to use a flow chart to get better idea                              elif condition 2:
-                                                                                      do B
-                                                                              else:
-                                                                                      do this 
+
+- IF/ELSE - NESTED
+in a nested if statement, once the first condition has passed,we can check for another condition. And then we can have another 
+if/else statement inside this if condition
+
 >=   Greater than or equal to                                                  
 <=   Less than or equal to 
 ==   Equal precisely, Equality, checking to see if the value on the left is equal to the value on the right
 =    Assign value
 !=   Not Equal
 
+
 - Modulo Operator 
 you'll want to know what is the remainder after a division.
 e.g. 4 ÷ 2 = 2 with no remainder but 5 ÷ 2 = 2 with 1 remainder. The modulo does not give you the result of the division, just the remainder.
 
 
-- IF/ELSE - NESTED
-in a nested if statement, once the first condition has passed,we can check for another condition. And then we can have another 
-if/else statement inside this if condition
+- IF/ELSE/ELIF                                                                 if condition 1:
+ conditional statement                                                               do A
+It is good to use a flow chart to get better idea                              elif condition 2:
+                                                                                      do B
+                                                                              else:
+                                                                                      do this 
+
+
+- Multiple if
+what if you were in a situation where you need to check for multiple conditions even if the previous one was already true?                if condition 1:
+If condition 1 is true, then do a, but then the code is going to go to the next case and check if condition 2 is also true,               do A
+in which case it will do B and if the final condition is also true, it's going to do C                                                    if condition 2:
+                                                                                                                                          do B
+                                                                                                                                          if condition 3:
+  pep = input("Do you want pepperoni? Y or N ")                                                                                           do C
+    if pep == "Y"                                                                                                                                        
+
+- Logical Operators
+A AND B      the entire line of code to be true.If just one of them is true, say A is true and B is false, then the overall thing evaluates to false.
+C OR D      if a C or D were true or if they're both true,then it'll evaluate to true. It's only when both C and D are false does this statement actually become false.
+NOT E
+
+
 
 
 
