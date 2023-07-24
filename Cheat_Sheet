@@ -120,5 +120,27 @@ NOT E
 
 
 
+- Randomization in any sort of programming language is really useful because if we want to create a game,if we want a program to do something different each time.
+there's a whole bunch of maths that can be applied to create what are called a pseudo-random number generators. Python uses is something called the Mersenne Twister.
+Python team have already created a random module.  (import random)
+
+
+- Module
+module is responsible for a different bit of functionality of your program
+random module is a module that the Python team created to make it easier for us to generate our random numbers without needing to get into
+the complexities of all of the math that's required to generate pseudorandom numbers.
+
+
+- List                                                               list = [item1, item2]
+And the list is what you would call a data structure.
+it's just a way of organizing and storing data in Python, the list use [],  when you try to get items out of the list, you also use square brackets and inside of the square brackets is where you put the index or the offset
+of the item that you want.  if I wrote -1 or -2, then it actually starts counting from the end of the list.
+the order in which they're stored in our data structure is now also immensely important. When you store it inside the variable, that order is not lost and you'll be able to use it later on when you need the list.
+
+we can write the name of the list and then we use a function called append and append will add a single item to the end of the list.
+list.append("item3")
+
+
+
 
 
