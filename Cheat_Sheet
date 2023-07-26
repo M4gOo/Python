@@ -131,7 +131,7 @@ random module is a module that the Python team created to make it easier for us 
 the complexities of all of the math that's required to generate pseudorandom numbers.
 
 
-- List                                                               list = [item1, item2]
+- List                                                               list = [item1, item2]     print(list[0])
 And the list is what you would call a data structure.
 it's just a way of organizing and storing data in Python, the list use [],  when you try to get items out of the list, you also use square brackets and inside of the square brackets is where you put the index or the offset
 of the item that you want.  if I wrote -1 or -2, then it actually starts counting from the end of the list.
