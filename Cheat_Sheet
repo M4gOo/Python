@@ -137,8 +137,15 @@ it's just a way of organizing and storing data in Python, the list use [],  when
 of the item that you want.  if I wrote -1 or -2, then it actually starts counting from the end of the list.
 the order in which they're stored in our data structure is now also immensely important. When you store it inside the variable, that order is not lost and you'll be able to use it later on when you need the list.
 
+change item in the list
+ list = [item1, item2] 
+list [1] = item15
+print(list)
+item1, item15
+
 we can write the name of the list and then we use a function called append and append will add a single item to the end of the list.
 list.append("item3")
+list.extend("item3")
 
 
 
