@@ -25,7 +25,7 @@ else:
     print(f"Your score is {score}")
 
 
-
+========================================================================================================
 
 number = int(input("Which number do you want to check? "))
 
@@ -33,3 +33,38 @@ if number % 2 == 0:
     print("This is an even number")
 else:
     print("This is an odd number")
+
+
+
+========================================================================================================
+
+print("Welcome to Python Pizza Deliveries!")
+size = input("What size pizza do you want? S, M or L ")
+if size == "S":
+    bill = 15
+    pep = input("Do you want pepperoni? Y or N ")
+    if pep == "Y":
+        bill += 2
+    extra_x = input("Do you want extra cheese? Y or N ")
+    if extra_x == "Y":
+        bill += 1
+elif size == "M":
+    bill = 20
+    pep = input("Do you want pepperoni? Y or N ")
+    if pep == "Y":
+        bill += 3
+    extra_x = input("Do you want extra cheese? Y or N ")
+    if extra_x == "Y":
+        bill += 1    
+elif size == "L":
+    bill = 25
+    pep = input("Do you want pepperoni? Y or N ")
+    if pep == "Y":
+        bill += 3
+    extra_x = input("Do you want extra cheese? Y or N ")
+    if extra_x == "Y":
+        bill += 1    
+else:
+    print("Type valid character")
+    
+print(f"Your final bill is: ${bill}")
