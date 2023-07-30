@@ -143,11 +143,33 @@ list [1] = item15
 print(list)
 item1, item15
 
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+Which line of code will give you "Apples"
+fruits [-5] or fruits [2]
+
+
 we can write the name of the list and then we use a function called append and append will add a single item to the end of the list.
 list.append("item3")
 list.extend("item3")
 
 
+- Nested List
+full_list = [a, b, c, i, o, p]
+x = [a,b,c]
+y = [ i, o, p]
+
+nested_list = [ x, y]
+
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+ 
+dirty_dozen = [fruits, vegetables]
+ 
+print(dirty_dozen[1][1])
+
+#output
+Kale
 
 
 
