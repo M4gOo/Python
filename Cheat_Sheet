@@ -122,8 +122,8 @@ NOT E
 
 - Randomization in any sort of programming language is really useful because if we want to create a game,if we want a program to do something different each time.
 there's a whole bunch of maths that can be applied to create what are called a pseudo-random number generators. Python uses is something called the Mersenne Twister.
-Python team have already created a random module.  (import random)
-
+Python team have already created a random module and you will see that it contains a whole bunch of functions that you can use
+(import random)
 
 - Module
 module is responsible for a different bit of functionality of your program
