@@ -23,3 +23,13 @@ elif score >= 40 and score <= 50:
     print(f"Your score is {score}, you are alright together.")
 else:
     print(f"Your score is {score}")
+
+
+
+
+number = int(input("Which number do you want to check? "))
+
+if number % 2 == 0:
+    print("This is an even number")
+else:
+    print("This is an odd number")
